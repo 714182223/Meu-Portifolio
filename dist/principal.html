@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições da turma</title>
+</head>
+
+<body style="background-color: #96f; color: black;">
+    <header style="text-align: center;">
+        <h2><i> Eleições da turma de Infoweb2v</i></h2>
+        <hr>
+        <h2> <i> Elega os melhores atletas da turma para o interclasse!</i></h2>
+        <h4 style="text-align: left;"><i> De incicio vamos pedir algumas informações escolares ao você prencher o
+                formulário.</i></h4>
+    </header>
+    <form action="resultadovotos.html" method="get">
+        Qual é o seu nome?
+        <input type="text" name="nome" size="20">
+        Digite sua matrícula:
+        <input type="number" name="matricula" size="20">
+        Informe seu e-mail:
+        <input type="email" name="email" size="20">
+        <br>
+        <br>
+        Você conconda o envio de suas informações?
+        <input type="checkbox" name="concorda" value="concorda"> Concordo
+        <input type="checkbox" name="concorda" value="concorda"> Não concordo<br>
+        <br>
+        <h4 style="text-align: left;"><i> Hora de começar a eleição!</i></h4>
+        <br>
+        Escolha as modalidades de esporte para quem você deseja eleger:
+        <select size="1" name="categoria">
+            <option value="Vol">Voleibol</option>
+            <option value="NT">Natação</option>
+            <option value="Fut">Futsal</option>
+            <option value="Bas">Basquete</option>
+            <option value="Jiu">Jiu-jitsu</option>
+            <option value="Quei">Queimada</option>
+            <option value="Ten">Tênis de mesa</option>
+        </select>
+        Nível do atleta:
+        <select size="1" name="categoria">
+            <option value="Vol">Juvenil</option>
+            <option value="Vol">Veterano</option>
+        </select>
+        Nome do atleta:
+        <input type="text" name="nome" size="15">
+        <br>
+        <br>
+        Idade do atleta:
+        <input type="number" name="idade" size="20">
+        Esportes que o atleta pratica:
+        <select size="1" name="categoria">
+            <option value="Vol">Voleibol</option>
+            <option value="NT">Natação</option>
+            <option value="Fut">Futsal</option>
+            <option value="Bas">Basquete</option>
+            <option value="Jiu">Jiu-jitsu</option>
+            <option value="Quei">Queimada</option>
+            <option value="Tnsm">Tênis de mesa</option>
+            <option value="Ftb">Futebol/option>
+            <option value="Tns">Tênis</option>
+        </select>
+        Habilidades:
+        <select size="1" name="categoria">
+            <option value="vlz">Veloz</option>
+            <option value="cctç">Concentração</option>
+            <option value="rsl">Resiliência</option>
+            <option value="agld">Agilidade</option>
+            <option value="frç">Força</option>
+        </select>
+        Estatura do atleta:
+        <select size="1" name="categoria">
+            <option value="bx">Baixo</option>
+            <option value="alt">Alto</option>
+        </select>
+        <br>
+        <br>
+
+        O atleta faz prática a musculação?
+        <input type="checkbox" name="sim" value="concorda"> Sim
+        <input type="checkbox" name="não" value="concorda"> Não
+        <br>
+        <br>
+        O altleta possui um bom desempenho acadêmico?
+        <input type="checkbox" name="sim" value="concorda"> Sim
+        <input type="checkbox" name="não" value="concorda"> Não
+        <br>
+        <br>
+
+        Tem uma boa relação com a turma e com os professores?
+        <input type="checkbox" name="sim" value="concorda"> Sim
+        <input type="checkbox" name="não" value="concorda"> Não
+        <br>
+        <br>
+        Participa de projetos de pesquisa e extensão?
+        <input type="checkbox" name="sim" value="concorda"> Sim
+        <input type="checkbox" name="não" value="concorda"> Não
+        <br>
+        <br>
+        Frequenta CA?
+        <input type="checkbox" name="sim" value="concorda"> Sim
+        <input type="checkbox" name="não" value="concorda"> Não
+        <br>
+        <br>
+        Faz os sites do professor Ari Oliveira?
+        <input type="checkbox" name="sim" value="concorda"> Sim
+        <input type="checkbox" name="não" value="concorda"> Não
+        <br>
+        <br>
+        O candidato possui número de chapa? Se sim digite, caso contrário digite 0.
+        <input type="number" name="idade" size="20">
+        <br>
+        <br>
+
+        De 0 a 10, como você avalia o atleta?
+        <input type="number" name="avaliação" size="20">
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
